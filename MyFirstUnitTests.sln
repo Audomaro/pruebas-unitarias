@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.DAO", "Sistema.DAO\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.BS", "Sistema.BS\Sistema.BS.csproj", "{9D406E2B-5CE5-4AAB-B913-950D4366B670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.Test", "Sistema.Test\Sistema.Test.csproj", "{72DD2745-DC09-4897-A716-C08F253F007B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sistema.Test", "Sistema.Test\Sistema.Test.csproj", "{72DD2745-DC09-4897-A716-C08F253F007B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.ConsolaNinject", "Sistema.ConsolaNinject\Sistema.ConsolaNinject.csproj", "{7146C05C-DEF7-468D-80D3-9A0BD427F9AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{72DD2745-DC09-4897-A716-C08F253F007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72DD2745-DC09-4897-A716-C08F253F007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72DD2745-DC09-4897-A716-C08F253F007B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7146C05C-DEF7-468D-80D3-9A0BD427F9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7146C05C-DEF7-468D-80D3-9A0BD427F9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7146C05C-DEF7-468D-80D3-9A0BD427F9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7146C05C-DEF7-468D-80D3-9A0BD427F9AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
