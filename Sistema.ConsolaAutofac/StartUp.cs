@@ -1,9 +1,8 @@
 ﻿using Sistema.BS;
-using Sistema.Consola;
 
 using System;
 
-namespace Sistema.ConsolaNinject
+namespace Sistema.ConsolaAutofac
 {
     internal class StartUp : IStartUp
     {

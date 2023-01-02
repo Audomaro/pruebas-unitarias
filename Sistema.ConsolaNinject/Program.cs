@@ -1,18 +1,20 @@
 ﻿using Ninject;
 
+using Sistema.Consola;
+
 using System;
 using System.Reflection;
 
 namespace Sistema.ConsolaNinject
 {
 
-    internal class Program : IProgram
+    internal class Program
     {
         static void Main(string[] args)
         {
             StandardKernel kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
-            StartUp programStarter = kernel.Get<StartUp>();
+            IStartUp programStarter = kernel.Get<IStartUp>();
 
             programStarter.Run();
 
