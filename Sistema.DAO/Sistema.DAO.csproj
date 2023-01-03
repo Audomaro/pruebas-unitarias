@@ -79,11 +79,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
     <EntityDeploy Include="SistemaModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SistemaModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="packages.config" />
     <None Include="SistemaModel.edmx.diagram">
       <DependentUpon>SistemaModel.edmx</DependentUpon>
     </None>

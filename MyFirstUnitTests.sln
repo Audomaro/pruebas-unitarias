@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.ConsolaNinject", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.ConsolaAutofac", "Sistema.ConsolaAutofac\Sistema.ConsolaAutofac.csproj", "{5F9EED7C-4AF0-43B2-A653-7BC4E4F2C33A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema.WebApiNinject", "Sistema.WebApiNinject\Sistema.WebApiNinject.csproj", "{CC268E0C-ABAA-4FFE-B209-3EB28F266882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5F9EED7C-4AF0-43B2-A653-7BC4E4F2C33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9EED7C-4AF0-43B2-A653-7BC4E4F2C33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F9EED7C-4AF0-43B2-A653-7BC4E4F2C33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC268E0C-ABAA-4FFE-B209-3EB28F266882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC268E0C-ABAA-4FFE-B209-3EB28F266882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC268E0C-ABAA-4FFE-B209-3EB28F266882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC268E0C-ABAA-4FFE-B209-3EB28F266882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
